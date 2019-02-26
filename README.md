@@ -1,13 +1,13 @@
 # TXT2RES
 
-TXT2DAT is a MATLAB GUI that enables fast and easy transcription of TXT files issued from the ABEM [Terrameter LS toolbox](https://www.guidelinegeo.com/support-service-advice-training/resource-center/?qs_product=244&qs_types=&qs_solutions=). The main advantage of the use of this function over the built-in Terrameter export functions is the ability to put a threshold on the observed variance of the data.
+TXT2RES is a MATLAB GUI that enables fast and easy transcription of TXT files issued from the ABEM [Terrameter LS toolbox](https://www.guidelinegeo.com/support-service-advice-training/resource-center/?qs_product=244&qs_types=&qs_solutions=). The main advantage of the use of this function over the built-in Terrameter export functions is the ability to put a threshold on the observed variance of the data.
 
 ## Installation
-To install, simply add the directory containing the TXT2DAT.m and TXT2DAT.fig files to MATLAB's current path.
+To install, simply add the directory containing the TXT2RES.m and TXT2RES.fig files to MATLAB's current path.
 
 ## Use
 
-1. Type ```TXT2DAT``` in MATLAB's command window. The GUI will appear.
+1. Type ```TXT2RES``` in MATLAB's command window. The GUI will appear.
 2. Select the ```*.txt``` file containing the data **and the measurements settings**, either by clicking on the pushbutton or by entering manually the path to the file.
 3. Select the threshold that you want to apply to the dataset (from an analysis of the histogram).
 4. Click on the pushbutton corresponding to the format that you want.

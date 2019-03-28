@@ -121,7 +121,7 @@ while ~isempty(headers),
     end
     if strcmp(Head{i},'Var(%)'),
         handles.index.Var = i-1;% To account for the unread time
-    elseif strcmp(Head{i},'Rho-a(Ohm-m)'),
+    elseif strcmp(Head{i},'Rho-a(Ohm-m)') || strcmp(Head{i},'App.R(Ohmm)'),
         handles.index.rhoa = i-1;
     elseif strcmp(Head{i},'R(Ohm)'),
         handles.index.rho = i-1;
@@ -242,7 +242,7 @@ while ~isempty(headers),
     end
     if strcmp(Head{i},'Var(%)'),
         handles.index.Var = i-1;% To account for the unread time
-    elseif strcmp(Head{i},'Rho-a(Ohm-m)'),
+    elseif strcmp(Head{i},'Rho-a(Ohm-m)') || strcmp(Head{i},'App.R(Ohmm)'),
         handles.index.rhoa = i-1;
     elseif strcmp(Head{i},'R(Ohm)'),
         handles.index.rho = i-1;
